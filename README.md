@@ -12,24 +12,24 @@ I built this project to create a practical operations focused tool related to en
 
 ## Features
 
-- Simulated sensor data for power generation equipment
-- Temperature, vibration, output, and efficiency tracking
-- Health classification for each asset
-- Risk score calculation from sensor readings
-- Maintenance recommendations based on equipment status
-- Fleet level KPI cards
-- Sensor trend line chart
-- Risk by asset bar chart
-- Operational alert queue
-- Equipment summary table
+* Simulated sensor data for power generation equipment
+* Temperature, vibration, output, and efficiency tracking
+* Health classification for each asset
+* Risk score calculation from sensor readings
+* Maintenance recommendations based on equipment status
+* Fleet level KPI cards
+* Sensor trend line chart
+* Risk by asset bar chart
+* Operational alert queue
+* Equipment summary table
 
 ## Tech Stack
 
-- React
-- Vite
-- Recharts
-- Tailwind CSS
-- JavaScript
+* React
+* Vite
+* Recharts
+* Tailwind CSS
+* JavaScript
 
 ## How It Works
 
@@ -42,7 +42,7 @@ The dashboard then:
 3. Classifies equipment health as Healthy, Warning, or Critical
 4. Calculates a risk score from sensor values
 5. Displays the results through charts, KPI cards, alerts, and tables
-6. Provides maintenance recommendations based on the asset status
+6. Provides maintenance recommendations based on asset status
 
 ## Project Architecture
 
@@ -58,15 +58,38 @@ Risk Score Calculation
 Dashboard Visualization
 ↓
 Maintenance Recommendation
+```
 
-## How To Run Locally
+## Run Locally
 
+Clone the repository:
+
+```bash
+git clone https://github.com/timhan/energy-equipment-monitoring-dashboard.git
+```
+
+Go into the project folder:
+
+```bash
+cd energy-equipment-monitoring-dashboard
+```
+
+Install dependencies:
+
+```bash
 npm install
+```
+
+Start the development server:
+
+```bash
 npm run dev
+```
 
-then open: http://localhost:5173/
+Open the app in your browser:
 
-
-
+```text
+http://localhost:5173/
+```
 
 
